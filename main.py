@@ -32,7 +32,7 @@ def create_crew():
     )
 
 def main():
-    st.title("Advanced Stock Analysis Dashboard")
+    st.title("Welcome to Stock Analysis Dashboard")
 
     st.sidebar.header("Stock Analysis Query")
     query = st.sidebar.text_area(
