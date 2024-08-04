@@ -1,5 +1,4 @@
 from crewai import Agent, LLM
-from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from src.config import HF_TOKEN, MODEL_NAME
 from src.tools.stock_tools import (
     get_basic_stock_info,

@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import yfinance as yf
-from datetime import datetime
 
 def calculate_beta(stock_returns, market_ticker, period):
     market = yf.Ticker(market_ticker)
