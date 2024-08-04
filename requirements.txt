@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+yfinance
+crewai
+crewai_tools
+langchain
+langchain-huggingface
+python-dotenv
